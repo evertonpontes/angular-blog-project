@@ -1,0 +1,78 @@
+.bar__container {
+  padding: 2.5em 1.5em;
+  display: none;
+  justify-content: space-between;
+}
+
+.menu__container > .menu__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu__container > .menu__list > .menu__option > a {
+  padding: 0 1em;
+  font-weight: 500;
+  display: flex;
+  cursor: pointer;
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.menu__container > .menu__list > .menu__option:nth-child(3) > a {
+  color: #fff;
+}
+
+.menu__container > .menu__list > .menu__option > .icon {
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(180, 40, 210) 0%, rgb(80, 40, 210));
+}
+
+.social__container > .social__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.social__container > .social__list > .social__option {
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.social__container > .social__list > .social__option > a > i {
+  font-size: 1.5em;
+  color: #6c757d;
+}
+
+.menu__responive {
+  padding: 2.5em 3em;
+  display: block;
+}
+
+.menu__responive > .menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__responive > .menu__list > .menu__option > .icon {
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(180, 40, 210) 0%, rgb(80, 40, 210));
+}
+
+.menu__responive > .menu__list > .menu__option > span > i {
+  font-size: 1.5em;
+  color: #6c757d;
+}
