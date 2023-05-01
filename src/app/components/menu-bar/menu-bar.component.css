@@ -1,3 +1,7 @@
+* {
+  background: none;
+}
+
 .bar__container {
   padding: 2.5em 1.5em;
   display: none;
@@ -51,6 +55,7 @@
 }
 
 .menu__responive {
+  height: auto;
   padding: 2.5em 3em;
   display: block;
 }
@@ -76,3 +81,55 @@
   font-size: 1.5em;
   color: #6c757d;
 }
+
+.menu__responive > .menu__option__dropdown {
+  width: 100%;
+  height: 100%;
+  top: 1px;
+  left: 1px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+}
+
+.menu__responive > .menu__option__dropdown > .menu__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  background: none;
+}
+
+.menu__responive >
+.menu__option__dropdown >
+.menu__list >
+.dropdown__close__button >
+span > i {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 24px;
+  padding: 0 0 1em 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, .16);
+}
+
+.menu__responive > .menu__option__dropdown > .menu__list > .menu__option {
+  background: none;
+  text-align: end;
+  border-bottom: 1px solid rgba(0, 0, 0, .16);
+  padding: 1.5em 2em;
+
+}
+
+.menu__responive > .menu__option__dropdown > .menu__list > .menu__option > a {
+  text-decoration: none;
+  background: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 2em;
+  font-weight: 500;
+  cursor: pointer;
+}
+

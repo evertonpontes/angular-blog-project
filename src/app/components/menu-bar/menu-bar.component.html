@@ -57,9 +57,56 @@
       <span class="icon">E</span>
     </li>
     <li class="menu__option">
-      <span>
+      <span (click)="changeDisplayDropDown()" >
         <i class="fa fa-bars"></i>
       </span>
     </li>
   </ul>
+  <div class="menu__option__dropdown" *ngIf="dropDownDisplay">
+    <ul class="menu__list">
+      <div class="dropdown__close__button">
+        <span (click)="changeDisplayDropDown()" ><i class="fa fa-xmark"></i></span>
+      </div>
+      <li class="menu__option">
+        <a href="">
+          Receitas
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          Blog
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          Sobre
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          Contato
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          Categoria especial
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          Instagram
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          LinkedIn
+        </a>
+      </li>
+      <li class="menu__option">
+        <a href="">
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>

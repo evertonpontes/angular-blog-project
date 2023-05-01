@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { dbFake } from '../../db/dbFake';
 
 @Component({
   selector: 'app-featured-right-section',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./featured-right-section.component.css']
 })
 export class FeaturedRightSectionComponent implements OnInit {
+
+  dbArticles = dbFake.splice(1, 3);
 
   constructor() { }
 

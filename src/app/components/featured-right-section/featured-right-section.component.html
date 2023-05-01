@@ -1,3 +1,5 @@
-<app-featured-article-small></app-featured-article-small>
-<app-featured-article-small></app-featured-article-small>
-<app-featured-article-small></app-featured-article-small>
+<ul class="container" *ngFor="let iten of dbArticles" >
+  <li>
+    <app-featured-article-small [data]="iten" ></app-featured-article-small>
+  </li>
+</ul>
